@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="../css/refactoru_CSS4_Responsive.css">
+	    <title>RWD</title>
+	</head>
+
+	<body>
+		<div>
+			<ul class="nav-bar">
+				<li class="menu"><a href="refactoru_CSS4_Responsive.html">Home</a></li>
+				<li class="menu"><a href="refactoru_CSS4_Image_Gallery.html">Image Gallery</a></li>
+				<li class="menu"><a href="refactoru_CSS4_Responsive.html#f1">Fluid Image 1</a></li>
+				<li class="menu"><a href="refactoru_CSS4_Responsive.html#f2">Fluid Image 2</a></li>
+				<li class="menu"><a href="refactoru_CSS4_Responsive.html#f3">Fluid Image 3</a></li>
+				<li class="menu"><a href="refactoru_CSS4_Responsive.html#f4">Fluid Image 4</a></li>
+				<li class="menu"><a href="refactoru_CSS4_Responsive.html#f5">Fluid Image 4</a></li>
+
+			</ul>
+		</div>
+		<div class="sidebar">
+
+				<ol>
+					<h3>Contents  [hide]</h3>
+					<li>Related concepts</li>
+					<li>Mobile first, unobtrusive JavaScript, and progressive enhancement</li>
+					<li>Progressive enhancement based on browser-, device-, or feature-detection</li>
+					<li>Challenges, and other approaches</li>
+					<li>History</li>
+					<li>See also</li>
+					<li>References</li>
+				</ol>
+
+		</div>
+		<div class="wrapper">
+			<div class="content">
+				<h1>Responsive Web Design</h1>
+				<hr>
+				<p>From Wikipedia, the free encyclopedia</p>
+				<p><span class="embolden">Responsive web design (RWD) </span>is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).[1][2][3]<br /><br />
+				A site designed with RWD[1][4] adapts the layout to the viewing environment by using fluid, proportion-based grids,[5] flexible images,[6][7][8][9] and CSS3 media queries,[3][10][11] an extension of the @media rule.[12]<br /><br />
+				The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.[5]<br /><br />
+				Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element.[6]
+				Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser.<br /><br />
+				Server-side components (RESS) in conjunction with client-side ones such as media queries can produce faster-loading sites for access over cellular networks and also deliver richer functionality/usability avoiding some of the pitfalls of device-side-only solutions.[13]</p>
+				<h2>Related concepts</h2>
+				<hr>
+				<h3 class="embolden">Mobile first, unobtrusive JavaScript, and progressive enhancement</h3>
+				<p>"Mobile first", unobtrusive JavaScript, and progressive enhancement (strategies for when a new site design is being considered) are related concepts that predated RWD: browsers of basic mobile phones do not understand JavaScript or media queries, so the recommended practice is to create a basic web site, and enhance it for smart phones and PCs—rather than try graceful degradation to make a complex, image-heavy site work on the most basic mobile phones.[14][15][16][17]</p>
+				<p></p>
+				<h3 class="embolden">Progressive enhancement based on browser-, device-, or feature-detection</h3>
+				<p>Where a web site must support basic mobile devices that lack JavaScript, browser ("user agent") detection (also called "browser sniffing"), and mobile device detection[15][18] are two ways of deducing if certain HTML and CSS features are supported (as a basis for progressive enhancement)—however, these methods are not completely reliable unless used in conjunction with a device capabilities database.</p>
+				<p>For more capable mobile phones and PCs, JavaScript frameworks like Modernizr, jQuery, and jQuery Mobile that can directly test browser support for HTML/CSS features (or identify the device or user agent) are popular. Polyfills can be used to add support for features—e.g. to support media queries (required for RWD), and enhance HTML5 support, on Internet Explorer. Feature detection also might not be completely reliable: some may report that a feature is available, when it is either missing or so poorly implemented that it is effectively nonfunctional.[19][20]</p>
+				<h2>Challenges, and other approaches</h2>
+				<hr>
+				<p>Luke Wroblewski has summarized some of the RWD and mobile design challenges, and created a catalog of multi-device layout patterns.[21][22][23] He suggests that, compared with a simple RWD approach, device experience or RESS (responsive web design with server-side components) approaches can provide a user experience that is better optimized for mobile devices.[24][25][26] Server-side "dynamic CSS" implementation of stylesheet languages like Sass or Incentivated's MML can be part of such an approach by accessing a server based API which handles the device (typically mobile handset) differences in conjunction with a device capabilities database in order to improve usability.[27] RESS is more expensive to develop of course, requiring more than just client-side logic, and so tends to be reserved for organisations with larger budgets.</p>
+				<p>One problem for RWD is that banner advertisements and videos are not fluid.[28] However search advertising and (banner) display advertising support specific device platform targeting and different advertisement size formats for desktop, smartphone, and basic mobile devices. Different landing page URLs can be used for different platforms,[29] or Ajax can be used to display different advertisement variants on a page.[18][22][30]</p>
+				<p>There are now many ways of validating and testing RWD designs,[31] ranging from mobile site validators and mobile emulators[32] to simultaneous testing tools like Adobe Edge Inspect.[33] The Firefox browser and the Chrome console offer responsive design viewport resizing tools, as do third parties.[34][35]</p>
+				<p></p>
+				<h2>History</h2>
+				<hr>
+				<p>Ethan Marcotte coined the term responsive web design (RWD) in a May 2010 article in A List Apart.[1] He described the theory and practice of responsive web design in his brief 2011 book titled Responsive Web Design. Responsive design was listed as #2 in Top Web Design Trends for 2012 by .net magazine[36] after progressive enhancement at #1. They also listed 20 of Ethan Marcotte's favourite responsive sites.[2]</p>
+				<p>Mashable called 2013 the Year of Responsive Web Design.[37] Many other sources have recommended responsive design as a cost-effective alternative to mobile applications.[38]</p>
+				<p>Forbes explains why you need to prioritize responsive design right now.[39]</p>
+				<p>In late 2012, Google recommended responsive design in its Webmaster’s Guide: “Google recommends webmasters follow the industry best practice of using responsive web design, namely serving the same HTML for all devices and using only CSS media queries to decide the rendering on each device.” [40]</p>
+				<h2>See also</h2>
+				<hr>
+				<h2>References</h2>
+				<hr>
+				<ol>
+					<li>^ Jump up to: a b c Marcotte, Ethan (May 25, 2010). "Responsive web design". A List Apart.</li>
+					<li>^ Jump up to: a b "Ethan Marcotte's 20 favourite responsive sites". .net magazine. October 11, 2011.</li>
+					<li>^ Jump up to: a b Gillenwater, Zoe Mickley (Dec. 15, 2010). "Examples of flexible layouts with CSS3 media queries". Stunning CSS3. p. 320. ISBN 978-0-321-722133.</li>
+					<li>^ Pettit, Nick (Aug. 8, 2012). "Beginner’s Guide to Responsive Web Design". TeamTreehouse.com blog.</li>
+					<li>^ Jump up to: a b Marcotte, Ethan (March 3, 2009). "Fluid Grids". A List Apart.</li>
+					<li>^ Jump up to: a b Marcotte, Ethan (June 7, 2011). "Fluid images". A List Apart.</li>
+					<li>^ "Adaptive Images".</li>
+					<li>^ Hannemann, Anselm (Sept. 7, 2012). "The road to responsive images". net Magazine.</li>
+					<li>^ Jacobs, Denise (August 23, 2011). "21 top tools for responsive web design". .net Magazine.</li>
+					<li>^ Gillenwater, Zoe Mickley (Oct. 21, 2011). "Crafting quality media queries".</li>
+					<li>^ "Responsive design—harnessing the power of media queries". Google Webmaster Central. Apr. 30, 2012.</li>
+					<li>^ W3C @media rule</li>
+					<li>^ http://www.gomonews.com/gatwick-airport-site-suddenly-becomes-user-unfriendly</li>
+					<li>^ Wroblewski, Luke (November 3, 2009). "Mobile First".</li>
+					<li>^ Jump up to: a b Firtman, Maximiliano (July 30, 2010). Programming the Mobile Web. p. 512. ISBN 978-0-596-80778-8.</li>
+					<li>^ "Graceful degradation versus progressive enhancement". February 3, 2009.</li>
+					<li>^ Designing with Progressive Enhancement. March 1, 2010. p. 456. ISBN 978-0-321-65888-3.</li>
+					<li>^ Jump up to: a b "Server-Side Device Detection: History, Benefits And How-To". Smashing magazine. September 24, 2012.</li>
+					<li>^ "BlackBerry Torch: The HTML5 Developer Scorecard | Blog". Sencha. 2010-08-18. Retrieved 2012-09-11.</li>
+					<li>^ "Motorola Xoom: The HTML5 Developer Scorecard | Blog". Sencha. 2011-02-24. Retrieved 2012-09-11.</li>
+					<li>^ Wroblewski, Luke (May 17, 2011). "Mobilism: jQuery Mobile".</li>
+					<li>^ Jump up to: a b Wroblewski, Luke (February 6, 2012). "Rolling Up Our Responsive Sleeves".</li>
+					<li>^ Wroblewski, Luke (March 14, 2012). "Multi-Device Layout Patterns".</li>
+					<li>^ Wroblewski, Luke (February 29, 2012). "Responsive Design ... or RESS".</li>
+					<li>^ Wroblewski, Luke (September 12, 2011). "RESS: Responsive Design + Server Side Components".</li>
+					<li>^ Andersen, Anders (May 9, 2012). "Getting Started with RESS".</li>
+					<li>^ "Responsive but not completely mobile optimised | Blog". Incentivated.</li>
+					<li>^ Snyder, Matthew; Koren, Etai (Apr. 30, 2012). "The state of responsive advertising: the publishers' perspective". .net Magazine.</li>
+					<li>^ Google AdWords Targeting (Device Platform Targeting)</li>
+					<li>^ JavaScript and Responsive Web Design Google Developers</li>
+					<li>^ Young, James (Aug. 13, 2012). "Top responsive web design problems... testing". .net Magazine.</li>
+					<li>^ "Best mobile emulators and RWD testing tools". The Mobile Web Design Blog. Nov. 26, 2011.</li>
+					<li>^ Rinaldi, Brian (September 26, 2012). "Browser testing... with Adobe Edge Inspect".</li>
+					<li>^ Responsive Design View in Firefox</li>
+					<li>^ Viewport resizer</li>
+					<li>^ "15 top web design and development trends for 2012". .net magazine. January 9, 2012.</li>
+					<li>^ Cashmore, Pete (Dec 11, 2012). "Why 2013 Is the Year of Responsive Web Design".</li>
+					<li>^ "Responsive web design costs | Why RWD cant be cost-effective and beneficial". 2013.</li>
+					<li>^ Gunelius, Susan (Mar 26, 2013). "Why You Need to Prioritize Responsive Design Right Now".</li>
+					<li>^ "Building Mobile-Optimized Websites". Dec 3, 2012.</li>
+				</ol>
+			</div>
+			
+		</div>
+		<div class="fluid_img_container">
+			<img src="../images/fluid1.jpg" alt="collection" class="fluid_img" name="f1"><br>
+			<img src="../images/fluid2.jpg" alt="mountains" class="fluid_img" name="f2"><br>
+			<img src="../images/fluid3.jpg" alt="shrinking" class="fluid_img" name="f3"><br>
+			<img src="../images/fluid4.jpg" alt="scaling" class="fluid_img" name="f4"><br>
+			<img src="../images/fluid5.jpg" alt="twin computers" class="fluid_img" name="f5"><br>
+		</div>
+	</body>
+</html>
